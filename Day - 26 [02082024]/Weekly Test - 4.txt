@@ -1,0 +1,8 @@
+1. Create a class with the name question1 which consists of two attributes first name and last name . Define a method with the name display and concatenate fname and last name inside the method and print the concatenated name.
+[2 M]
+
+2. Create a class with the name question2 which should take three parameters while creating an object and define a function of type with parameters with return type which should return second largest among those three parameters.
+[2 M]
+
+3. Create a class with the name question3 which should take three parameters while creating an object those are intergervalue1,intergervalue2,operation[string][+/-]. Define two methods one with the name addition and another on with subtraction [two methods must be with parameters without return type]. If user passes operation as "+" while passing it should activate addition method which consists of adding of intergervalue1 and intergervalue2 otherwise it should activate subtraction method which consists of subtraction of intergervalue1 and intergervalue2
+[4 Marks]
