@@ -1,0 +1,15 @@
+1. Explain 4 pillars of OOPs with clear explanation and examples.
+2. Create a class with the name university consists  of parameterized constructor handles name, location of university. Create method with the name add department which consists of name and block and has to print name and block once data entered by user. Create another method with the name sports which consists of name and has to print name once data entered by user.
+3. Create three classes and perform the operation based on below syntax
+	Class Name 1 : Parent:
+	Methods : display -> Should print I am from Parent class
+	
+	Class Name 2 : Child 1:
+	Methods : display -> Should print I am from child class 1
+
+	Class Name 3: Child 2:
+	Methods : display -> Should print I am from child class 2
+Note: Perform Multi level inheritance
+4. Try to perform division operation which should print "Division Error Occurred" when we got division by zero for rest of error cases should print ("Other Error Occurred". Add finally block which should print "I am finally Block"
+
+
