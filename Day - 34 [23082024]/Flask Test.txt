@@ -1,0 +1,32 @@
+Create a DB flask
+
+create user table which includes id[AU], name[varchar] and mobile[varchar]
+
+create product table which includes id[AU], name[varchar] and price[varchar]
+
+task1:
+------
+url input: /insertu/sai/12344
+url input: /insertu/vardhan/5678
+
+--- Indicates to add data into users table
+
+task2:
+------
+url input: /insertp/soap/100
+url input: /insertp/earphones/200
+url input: /insert/mobile/300
+
+--- Indicates to add data into products table
+
+task3:
+------
+url input: /getu
+
+-- Indicates to access the data of users table
+
+task3:
+------
+url input: /getpp
+
+-- Indicates to access the data of products table
