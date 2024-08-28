@@ -1,0 +1,22 @@
+.a{
+    background-color: rgb(238, 223, 223);
+    height : 100px;
+    margin : 20px;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+}
+.b{
+    background-color: rgb(195, 230, 230);
+    margin : 30px;
+    padding : 20px;
+}
+.b div{
+    background-color: rgb(194, 120, 30);
+    font-size: 30px;
+    width: 100px;
+    padding : 20px;
+}
+a{
+    color: white;
+}
