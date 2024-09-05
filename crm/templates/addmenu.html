@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Mr.Sai Vardhan" />
+        <meta name="description " content="A Best Coliving Pg" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/addmenu.css') }}">
+        <title>Edit Menu Card</title>
+    </head>
+    <body>
+        <div class="b">
+            <div class="ba">
+                <form action="updatemenu" method="POST">
+                    <div class="b1">
+                        <label for="date">Date[dd-mm-yyyy]</label>
+                        <br>
+                        <input type="text" id="date" name="date">
+                    </div>
+                    <div class="b2">
+                        <label for="morning">Morning</label>
+                        <br>
+                        <input type="text" id="morning" name="morning">
+                    </div>
+                    <div class="b4">
+                        <label for="afternoon">Afternoon</label>
+                        <br>
+                        <input type="text" id="afternoon" name="afternoon">
+                    </div>
+                    <div class="b4">
+                        <label for="evening">Evening</label>
+                        <br>
+                        <input type="text" id="evening" name="evening">
+                    </div>
+                    <div class="b3">
+                        <button type="submit">Update Menu</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

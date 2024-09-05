@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Portal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/crmadminportal.css') }}">
+</head>
+<body>
+    <div class="header">
+        <a href="{{ url_for('home') }}" class="login-button">Home</a>
+        <a href="{{ url_for('adminlogin') }}" class="login-button1">Admin</a>
+    </div>
+    <div class="portal-container">
+        <h1>Admin Portal</h1>
+        <div class="button-container">
+            <a href="{{ url_for('home') }}" class="btn">Home</a>
+            <a href="{{ url_for('adminlogin') }}" class="btn">Back</a>
+            <a href="{{ url_for('adduser') }}" class="btn">Add User</a>
+            <a href="{{ url_for('updateuser') }}" class="btn">Update User</a>
+        </div>
+    </div>
+</body>
+</html>

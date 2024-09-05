@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Mr.Sai Vardhan" />
+        <meta name="description " content="A Best Coliving Pg" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/admin.css') }}">
+        <title>Admin</title>
+    </head>
+    <body>
+        <div class="a">
+            <img src="{{ url_for('static', filename='images/home4.jpg') }}" alt="My Image">
+        </div>
+        <div class="b">
+            <div class="ba">
+                <form action="adminlogin" method="POST">
+                    <div class="b1">
+                        <label for="username">User Name</label>
+                        <br>
+                        <input type="text" id="username" name="username">
+                    </div>
+                    <div class="b2">
+                        <label for="password">Password</label>
+                        <br>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="b3">
+                        <button type="submit">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

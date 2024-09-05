@@ -1,0 +1,149 @@
+@media (min-width:1200px){
+    body{
+        background-color: grey;
+    }
+    .a{
+        background-color: rgb(202, 232, 222);
+        height : 70px;
+        width : 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: auto 130px 900px;
+    }
+    .a img{
+        margin-top: 5px;
+        margin-left: 5px;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .aa{
+        height : 60px;
+    }
+    .ab{
+        text-align: center;
+        align-content: center;
+        width : 100px;
+        border-radius: 10px;
+    }
+    .ab button{
+        height: 80%;
+        width : 100%;
+        background-color: aquamarine;
+        border-radius: 10px;
+    }
+    .b{
+        background-color: red;
+        position: absolute;
+        height : 100%;
+        width : 199px;
+        border-radius: 3px;
+    }
+    .c img{
+        width : 100%;
+        border-radius: 3px;
+    }
+    .c div{
+        margin-bottom: 5px;
+    }
+}
+@media (max-width:1200px) and (min-width:667px){
+    body{
+        background-color: grey;
+    }
+    .a{
+        background-color: rgb(202, 232, 222);
+        height : 70px;
+        width : 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: 200px 120px 800px;
+    }
+    .a img{
+        margin-top: 5px;
+        margin-left: 5px;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .aa{
+        height : 60px;
+    }
+    .ab{
+        text-align: center;
+        align-content: center;
+        width : 100px;
+        border-radius: 10px;
+    }
+    .ab button{
+        height: 80%;
+        width : 100%;
+        background-color: aquamarine;
+        border-radius: 10px;
+    }
+    .b{
+        background-color: red;
+        position: absolute;
+        height : 100%;
+        width : 199px;
+        border-radius: 3px;
+    }
+    .c img{
+        width : 100%;
+        border-radius: 3px;
+    }
+    .c div{
+        margin-bottom: 5px;
+    }
+}
+@media (max-width:666px){
+    body{
+        background-color: grey;
+    }
+    .a{
+        background-color: rgb(202, 232, 222);
+        height : 70px;
+        width : 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .a img{
+        margin-top: 5px;
+        margin-left: 5px;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .aa{
+        height : 60px;
+        width : 130px;
+    }
+    .ab{
+        text-align: center;
+        align-content: center;
+        width : 100px;
+        border-radius: 10px;
+    }
+    .ab button{
+        height: 80%;
+        width : 100%;
+        background-color: aquamarine;
+        border-radius: 10px;
+    }
+    .b{
+        background-color: red;
+        position: absolute;
+        height : 100%;
+        width : 199px;
+        border-radius: 3px;
+    }
+    .c img{
+        width : 100%;
+        border-radius: 3px;
+    }
+    .c div{
+        margin-bottom: 5px;
+    }
+}

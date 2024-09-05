@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/crmupdateuser.css') }}">
+</head>
+<body>
+    <div class="header">
+        <a href="{{ url_for('home') }}" class="login-button">Home</a>
+        <a href="{{ url_for('adminlogin') }}" class="login-button1">Admin Login</a>
+        <a href="{{ url_for('adminportal') }}" class="login-button1">Admin Portal</a>
+    </div>
+    <div class="table-container">
+        <h2>User List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for user in users %}
+                <tr>
+                    <td>{{ user[0] }}</td>
+                    <td>{{ user[1] }}</td>
+                    <td>{{ user[2] }}</td>
+                    <td>{{ user[3] }}</td>
+                    <td>
+                        <form action="user-update" method="post">
+                            <input type="submit" class="btn delete-btn" value="Update {{user[2]}}" name="xyz">
+                        </form>
+                    </td>
+                    <td>
+                        <form action="delete-user" method="post">
+                            <input type="submit" class="btn delete-btn" value="Delete {{user[2]}}" name="abc">
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
